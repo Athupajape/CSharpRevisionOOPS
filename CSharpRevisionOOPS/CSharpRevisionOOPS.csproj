@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AbstractEmployee.cs" />
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="CustomException.cs" />
+    <Compile Remove="Delegates.cs" />
+    <Compile Remove="DictionaryClass.cs" />
+    <Compile Remove="Enums.cs" />
+    <Compile Remove="ExceptionFile.cs" />
+    <Compile Remove="Generics.cs" />
+    <Compile Remove="GetterSetter.cs" />
+    <Compile Remove="Inheritance.cs" />
+    <Compile Remove="Interfaces.cs" />
+    <Compile Remove="Namespaces.cs" />
+    <Compile Remove="PartialClass.cs" />
+    <Compile Remove="Polymorphism.cs" />
+    <Compile Remove="Program.cs" />
+    <Compile Remove="Properties.cs" />
+    <Compile Remove="StaticInstance.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="AbstractEmployee.cs" />
+    <None Include="Class1.cs" />
+    <None Include="CustomException.cs" />
+    <None Include="Delegates.cs" />
+    <None Include="DictionaryClass.cs" />
+    <None Include="Enums.cs" />
+    <None Include="ExceptionFile.cs" />
+    <None Include="Generics.cs" />
+    <None Include="GetterSetter.cs" />
+    <None Include="Inheritance.cs" />
+    <None Include="Interfaces.cs" />
+    <None Include="Namespaces.cs" />
+    <None Include="PartialClass.cs" />
+    <None Include="Polymorphism.cs" />
+    <None Include="Program.cs" />
+    <None Include="Properties.cs" />
+    <None Include="StaticInstance.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
